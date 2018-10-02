@@ -11,7 +11,7 @@ public class ProdutoResource {
 	@GET
 	@Produces(MediaType.APPLICATION_XML)
 	public String busca() {
-		return "<pasta de dente>colgate</pasta de dente>";
+		return "<pastadente>colgate</pastadente>";
 	}
 	
 	

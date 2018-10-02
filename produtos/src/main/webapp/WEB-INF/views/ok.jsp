@@ -8,10 +8,19 @@
 </head>
 <body>
 	<h3>Adicionar tarefas</h3>
-	<form action="adicionaTarefa" method="post">
+	<form action="adicionaProduto" method="post">
+	
+		Nome: <br />
+		
+		<input name="nome" type="text"/>
+	
 		Descrição: <br />
 		
 		<textarea name="descricao" rows="5" cols="100"></textarea>
+		
+		Preço: <br />
+		
+		<input name="preco" type="text" />
 		
 		<br /> <input type="submit" value="Adicionar">
 	</form>
