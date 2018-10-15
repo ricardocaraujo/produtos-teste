@@ -4,17 +4,30 @@ import javax.validation.constraints.Size;
 
 public class Produto {
 	
-	@Size(min=5)
+	
+	private int id;	
+	@Size(min=5, message="nome pequeno")
 	private String nome;
 	private String descricao;
 	private double preco;
 	
 	
-	public Produto(String nome, String descricao, double preco) {
+	public Produto(int id, String nome, String descricao, double preco) {
 		super();
+		this.id = id;
 		this.nome = nome;
 		this.descricao = descricao;
 		this.preco = preco;
+	}
+	
+	public Produto() {}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	public String getNome() {
