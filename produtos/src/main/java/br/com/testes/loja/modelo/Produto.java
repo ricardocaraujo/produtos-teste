@@ -9,9 +9,11 @@ public class Produto {
 	private String descricao;
 	private double preco;
 	
+	public Produto() {
+		
+	}
 	
 	public Produto(String nome, String descricao, double preco) {
-		super();
 		this.nome = nome;
 		this.descricao = descricao;
 		this.preco = preco;

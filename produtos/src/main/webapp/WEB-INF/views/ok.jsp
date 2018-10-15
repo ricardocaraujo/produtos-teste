@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>Adicionar tarefas</h3>
-	<form action="adicionaProduto" method="post">
+	<form action="adicionaProduto" method="POST">
 	
 		Nome: <br />
 		
