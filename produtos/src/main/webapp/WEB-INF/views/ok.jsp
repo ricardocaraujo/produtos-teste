@@ -12,7 +12,8 @@
 	
 	 
 
-	<form action="adicionaProduto" method="post">
+	<form action="adicionaProduto" method="POST">
+
 	
 		<form:errors path="produto.nome"/> 
 	

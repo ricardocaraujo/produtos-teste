@@ -11,7 +11,6 @@ public class Produto {
 	private String descricao;
 	private double preco;
 	
-	
 	public Produto(int id, String nome, String descricao, double preco) {
 		super();
 		this.id = id;
